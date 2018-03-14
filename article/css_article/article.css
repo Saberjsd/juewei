@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	vertical-align: top;
+	border: none;
+	
+}
+a:link,a:hover,a:active,a:visited{
+	text-decoration: none;
+}
+.container{
+	/*margin-top: 100px;*/
+	padding-top: 100px;
+	background-color: #F1F1F1;
+}
+#group{
+	border-bottom: 1px solid #d8d8d8;
+	height: 50px;
+	width: 1140px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.group>ul{
+	width: 60%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	
+}
+.group>ul>li{
+	line-height: 45px;
+	float: left;
+	width: 20%;
+}
+.colum{
+	
+}
+.current{
+	font-size: 12px;
+	color: #666;
+
+}
+.sub{
+	display: none;
+	position: relative;
+	left: 0;
+	top: -1px;
+	z-index: 99;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 0 0 6px 6px;
+}
+.sub>li>a{
+	font-size: 11px;
+	color: #666;
+}
+#guide{
+	z-index: 56;
+}
+#primary{
+	z-index: 55;
+}
+.ul_group{
+	z-index: 55;
+	position: relative;
+	border-bottom: 1px solid #E5E5E5;
+}
+.title>h2>a{
+	font-size: 16px;
+	color: #333333;
+	display: inline-block;
+	/*float: left;*/
+}
+i>a{
+	font-style: normal;
+}
+
+.group{
+	/*overflow: hidden;*/
+	display: inline-block;
+	position: relative;
+	color: #999999;
+	height: auto;
+}
+.thump{
+	float: left;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+.item-main{
+	position: relative;
+	margin-left: 230px;
+}
+.title{
+	float: left;
+	position: relative;
+	bottom: 20px;
+}
+.title >h2>a{
+	font-size: 16px;
+}
+.title >h2>a:hover{
+	color: #00c3b6;
+}
+.meta{
+	display: inline-block;
+}
+div h2{
+	display:block;
+}
+.cat{
+	margin-top: -18px;
+	font-size: 12px;
+	position: absolute;
+	top: 45px;
+	left: 0px;
+
+}
+.cat>a{
+	background-color: rgba(0,0,0,0.4);
+	color: rgba(255,255,255,0.9);
+	border-radius: 2px;
+}
+.tag-links{
+	margin-left: 10px;
+	
+}
+.fa>a{
+	color: #999;
+}
+.excerpt{
+	position: absolute;
+	margin-top: 10px;
+	font-size: 14px;
+	top: 43px;
+	left: 0px;
+	width: 900px;
+}
+.item{
+	/*display: inline-block;*/
+	margin: 23px auto;
+}
+.data{
+	position: absolute;
+	margin-top:20px ;
+	font-size: 12px;
+	left: 0px;
+	top: 90px;
+	width: 270px;
+}
+.data-r{
+	position: absolute;
+	right: -620px;
+	margin-top:-20px;
+}
+.data-r>span{
+	position: relative;
+	margin-left: 14px;
+}
+.author_pic{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 855px;
+}
+#pading{
+	position: relative;
+	bottom: 100px;
+	margin: 120px auto;
+	text-align: center;
+}
+.pading{
+	position: relative;
+	margin: auto;
+}
+.fa>img{
+	width: 12px;
+	height: 12px;
+	position: relative;
+	top: -1px;
+	left: -2px;
+}
+.fa1>img{
+	width: 12px;
+	height: 12px;
+	position: relative;
+	top: -2px;
+	left: -2px;
+}
+.img-title{
+	width: 210px;
+	height: 135px;
+}

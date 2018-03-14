@@ -1,0 +1,50 @@
+body{
+    background-color: #f1f1f1;
+}
+.mydiv{
+    width: 1260px;
+    height: 680px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    /*background-color: yellow;*/
+}
+.mydiv>div{
+    float: left;
+}
+.divul{
+    width: 280px;
+    height: 166px;
+    background-color: white;
+}
+.content11{
+    width: 960px;
+    height: 600px;
+    background-color: white;
+    margin-left: 20px;
+}
+.head{
+    width: 100%;
+    height: 73px;
+    /*background-color: #1b6d85;*/
+    border-bottom: solid 1px #E5E5E5;
+}
+.title{
+    width: 920px;
+    height: 24px;
+    margin: 0 auto;
+    line-height: 73px;
+}
+.arti{
+    width: 960px;
+    height: 600px;
+}
+p{
+    width: 900px;
+    margin: 20px auto 0;
+}
+.divimg{
+    width: 700px;
+    height: 300px;
+    margin: 10px auto 0;
+}
